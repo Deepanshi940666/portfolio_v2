@@ -1,0 +1,65 @@
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  max-width: 1600px;
+  margin: 0 auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 10px ;
+  background-color:rgba(48, 48, 50, 0.951);
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links > a {
+  text-decoration: none;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: rgb(1, 1, 1);
+  background-color: rgb(237, 237, 237);
+}
+
+.navbar-logo > img {
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.navbar-links > a:hover {
+  border-radius: 0;
+
+  padding: 10px 50px;
+  transition: all 0.3s;
+  border-color: black;
+}
+
+.auth-btn {
+  display: flex;
+  gap: 20px;
+  transition: 0.3s;
+}
+.auth-btn > a {
+  padding: 10px 20px;
+  border: 2px solid rgb(4, 4, 4);
+  text-decoration: none;
+  background-color: rgb(236, 237, 244);
+  color: rgb(9, 8, 9);
+
+}
+.Hero-section {
+  max-width: 1000px;
+  padding: 30px;
+  height: 80vh;
+  border-radius: 300px;
+  background-color:rgb(189, 88, 88);
+  margin: 5px auto;
+}
