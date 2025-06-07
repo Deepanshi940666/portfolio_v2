@@ -11,6 +11,8 @@ navbar {
   border-top-right-radius: 50px;
   padding: 10px ;
   background-color:rgba(48, 48, 50, 0.951);
+
+  /* This is new one */
 }
 
 .navbar-links {
